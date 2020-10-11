@@ -1,2 +1,2 @@
 # NSS-Daily-Journal
-![](images/nCm0dxIjVWok.jpg)
+![](images/nCm0dxIjVWok (1).jpg)

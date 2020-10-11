@@ -1,0 +1,17 @@
+body,
+button,
+input,
+select,
+textarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+
+
+
+
