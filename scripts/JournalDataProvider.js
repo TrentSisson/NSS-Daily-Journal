@@ -6,6 +6,8 @@ const journal = [
         entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
         mood: "Happy"
     },
+
+
 {
     id: 1,
     date: "07/25/2025",
@@ -13,6 +15,7 @@ const journal = [
     entry: "We talked about JavaScript components and how to make Functions.",
     mood: "Ok"
 },
+
 
 {
     id: 1,
@@ -27,8 +30,8 @@ const journal = [
 
 export const useJournalEntries = () => {
     const sortedByDate = journal.sort(
-        (currentEntry, nextEntry) =>
-            Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
+        (currentEntry,nextEntry) =>
+        Date.parse(currentEntry.date)     - Date.parse(nextEntry.date)
     )
     return sortedByDate
 }
